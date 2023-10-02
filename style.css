@@ -27,6 +27,20 @@ body {
     right: 15px;
     z-index: 2;
 }
+.nav-div {
+    z-index: 20;
+ }
+ .footer2 {
+    display: flex;
+    gap: 40px;
+ }
+ .footer2 a {
+    text-transform: uppercase;
+ }
+ .box-2 {
+    border: 2px solid rgb(155, 113, 36);
+    border-radius: 6px;
+ }
 @media all and (max-width: 780px){
     .show-input{
         display: flex;
@@ -48,4 +62,10 @@ body {
         text-align: center;
         gap: 30px;
     }
+    .footer2 {
+        display: flex;
+        gap: 20px;
+        flex-direction:column;
+     }
 }
+
